@@ -46,3 +46,7 @@ Kubernetes yaml configurations for deployment of the [yeasy/simple-web](https://
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Screenshot 2021-08-23 at 10 12 31 AM](https://user-images.githubusercontent.com/22592043/130488896-67604dbb-e209-4fc3-974e-2368a63f08c7.png)
 
 7. An interactive bash session can be launched inside one of the pods by running 'kubectl exec -it ___pod-name___ bash'
+
+
+# Further...
+[Cluster Role Binding](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) to restrict access to the pods based on user authorization
